@@ -1,5 +1,5 @@
 # Part 1. Intro to Javascript
-### Part 1a. Quick Introduction
+## Part 1a. Quick Introduction
 1. line 9 prints 'values added: ' followed by the sum of num1 and num2 if the variable add is true. In this case since the functino call is sumVlaues(10,10 true) line 19 will return 'values added: 20'.
 2. line 13 will return the 'final result: 20'.
 3. line 9 will return 'values added: 20'
@@ -7,7 +7,7 @@
 5. line 9 will return an error because a const variable can not be reassigned which happens on line 7.
 6. line 13 will return an error because the result variable is out of line 13's scope
 
-### Part 1b. A Little More of a Challenge...
+## Part 1b. A Little More of a Challenge...
 1. line 12 will print out '3' because that is the value of the variable i in the for loop starting on line 6 after the for loop ends (ends when i = prices.length) which is assigned as 'var' so there is no block scope.
 2. line 13 will print out '150' which is the value of the variable discountedPrice during the last iteration of the for loop. This is because it is assigned as 'var' so there is no block scope.
 3. line 14 will print out '150' which is the value of the variable finalPrice during the last iteration of the for loop. 
